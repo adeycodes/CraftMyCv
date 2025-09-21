@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftMyCV - Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="logo">
+                <div>
+                <svg id="Layer_1" data-name="Layer 1" height="34" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111.87 122.88"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>edit-file</title><path class="cls-1" d="M56.75,113.57V75.07a9.34,9.34,0,0,1,9.31-9.3h36.5a9.34,9.34,0,0,1,9.31,9.3v38.5a9.34,9.34,0,0,1-9.31,9.31H66.06a9.34,9.34,0,0,1-9.31-9.31Zm2.74-102.1L79.08,29.82H59.49V11.47ZM20.72,69.38a2.12,2.12,0,0,0-2,2.21,2.08,2.08,0,0,0,2,2.21H45.3V69.38Zm0,15.83a2.12,2.12,0,0,0-2,2.21,2.08,2.08,0,0,0,2,2.21H45.3V85.21Zm0-47.5a2.12,2.12,0,0,0-2,2.21,2.09,2.09,0,0,0,2,2.21H43.45a2.13,2.13,0,0,0,2-2.2,2.1,2.1,0,0,0-2-2.22Zm0-15.83a2.12,2.12,0,0,0-2,2.21,2.08,2.08,0,0,0,2,2.21h12.5a2.12,2.12,0,0,0,2-2.21,2.1,2.1,0,0,0-2-2.21Zm0,31.67a2.12,2.12,0,0,0-2,2.21,2.1,2.1,0,0,0,2,2.21H59.16a2.13,2.13,0,0,0,2-2.21,2.09,2.09,0,0,0-2-2.21ZM90,32.45a3.26,3.26,0,0,0-2.37-3.14L58.74,1.2A3.21,3.21,0,0,0,56.23,0H5.87A5.86,5.86,0,0,0,0,5.86V106.25a5.84,5.84,0,0,0,1.72,4.15,5.91,5.91,0,0,0,4.15,1.71H45.39v-6.55H6.55v-99H52.94V33.08a3.29,3.29,0,0,0,3.29,3.29h27.2V57.82H90V32.45ZM82.4,106l-11.58,3.09,1.67-12.43L82.4,106ZM75,93.86l12.36-14a1.06,1.06,0,0,1,.76-.36,1.17,1.17,0,0,1,.52.12l8.83,8a.92.92,0,0,1,.28.64.89.89,0,0,1-.31.71L84.92,103.2,75,93.86Z"/></svg>
+                </div>
+                    <h1>CraftMyCV</h1>
+            </div>
+
+            <h2 class="welcome-back">Welcome Back</h2>
+
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Email Address">
+                <label for="email">Email Address</label>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Password">
+                <label for="password">Password</label>
+                <div class="password-toggle">
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="remember-me">
+                <div>
+                    <input type="checkbox" id="rememberMe">
+                    <label for="rememberMe">Remember me</label>
+                </div>
+
+                <p class="forgot-password">Forgot Password?</p>
+            </div>
+
+
+
+            <button class="login-button">Login</button>
+
+            <div class="or-divider">
+                <span>OR</span>
+            </div>
+
+            <div class="social-login">
+                <div class="social-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg"width="100" height="34" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M564 325.8C564 467.3 467.1 568 324 568C186.8 568 76 457.2 76 320C76 182.8 186.8 72 324 72C390.8 72 447 96.5 490.3 136.9L422.8 201.8C334.5 116.6 170.3 180.6 170.3 320C170.3 406.5 239.4 476.6 324 476.6C422.2 476.6 459 406.2 464.8 369.7L324 369.7L324 284.4L560.1 284.4C562.4 297.1 564 309.3 564 325.8z"/></svg>
+                </div>
+                <div class="social-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="40" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M447.1 332.7C446.9 296 463.5 268.3 497.1 247.9C478.3 221 449.9 206.2 412.4 203.3C376.9 200.5 338.1 224 323.9 224C308.9 224 274.5 204.3 247.5 204.3C191.7 205.2 132.4 248.8 132.4 337.5C132.4 363.7 137.2 390.8 146.8 418.7C159.6 455.4 205.8 545.4 254 543.9C279.2 543.3 297 526 329.8 526C361.6 526 378.1 543.9 406.2 543.9C454.8 543.2 496.6 461.4 508.8 424.6C443.6 393.9 447.1 334.6 447.1 332.7zM390.5 168.5C417.8 136.1 415.3 106.6 414.5 96C390.4 97.4 362.5 112.4 346.6 130.9C329.1 150.7 318.8 175.2 321 202.8C347.1 204.8 370.9 191.4 390.5 168.5z"/></svg>
+                </div>
+            </div>
+
+            <div class="signup-link">
+                <span>Don't have your account?</span>
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
